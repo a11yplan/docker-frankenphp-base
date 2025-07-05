@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM dunglas/frankenphp:1-php8.3-alpine AS base
+FROM --platform=$BUILDPLATFORM dunglas/frankenphp:1-php8.4-alpine AS base
 
 RUN apk --no-cache add \
     nodejs \
